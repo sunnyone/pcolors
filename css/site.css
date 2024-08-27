@@ -89,6 +89,9 @@ svg .chip path {
     stroke-width: 4px;
 }
 
+svg .chip {
+    cursor: pointer;
+}
 
 .color-name {
     font-size: 12px;
