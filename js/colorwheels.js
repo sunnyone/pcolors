@@ -96,8 +96,6 @@ function renderCircle(toneName, toneTitle, toneData, gCircle) {
          var parent = d3.select(this);
          var colorValue = parent.select(".color-value").text();
          navigator.clipboard.writeText(colorValue);
-
-         alert(colorValue + " をコピーしました！");
       });
     
     g.append("path")
